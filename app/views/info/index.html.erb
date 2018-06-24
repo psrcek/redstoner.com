@@ -1,8 +1,8 @@
 <% title "Info" %>
 
-<h1>Info</h1>
+<h1>General Information</h1>
 <% if mod? %>
-  <%= link_to "New Info", new_info_path, class: "btn blue" %>
+  <%= link_to "New Info Page", new_info_path, class: "btn blue" %>
 <% end %>
 <div class="info">
   <% @info.each do |info| %>
